@@ -1,0 +1,13 @@
+@mixin button {
+    background-color: var(--color_orange);
+    color: white;
+    padding: 0.75em 1.5em;
+    border-radius: 100px;
+    transition: all 150ms;
+    text-decoration: none;
+    font-family: var(--font_serif);
+    font-size: 0.8rem;
+    &:hover {
+        background-color: var(--color_light-orange);
+    }
+}
