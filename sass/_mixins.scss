@@ -11,3 +11,11 @@
         background-color: var(--color_light-orange);
     }
 }
+
+@mixin textbox {
+    background-color: var(--color_light_pink);
+    border-color: var(--color_pink);
+    border-radius: 15px;
+    border-style: dotted;
+    border: 4px;
+}
