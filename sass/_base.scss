@@ -23,4 +23,9 @@ main {
 
 .textbox {
     @include textbox;
+    background-color: lightpink;
+    border-color: pink;
+    border-radius: 15px;
+    border-style: dotted;
+    border: 4.5px;
 }

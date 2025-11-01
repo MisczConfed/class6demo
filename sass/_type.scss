@@ -11,9 +11,7 @@ h1 {
    
 }
 h1, h2, h3 {
-    font-family: var(--font_sans);
-    color: var(--color_blue);
-    @include textbox;
+    background-color: lightpink;
     text-align: center;
     
 }
