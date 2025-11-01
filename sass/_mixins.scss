@@ -1,16 +1,4 @@
-@mixin button {
-    background-color: var(--color_light_pink);
-    color: white;
-    padding: 0.75em 1.5em;
-    border-radius: $radius;
-    transition: all 150ms;
-    text-decoration: none;
-    font-family: var(--font_serif);
-    font-size: 0.8rem;
-    &:hover {
-        background-color: var(--color_blue);
-    }
-}
+
 
 @mixin textbox {
     background-color: var(--color_light_pink);
@@ -18,4 +6,5 @@
     border-radius: $radius;
     border-style: dotted;
     border: 4.5px;
+    text-align: center;
 }

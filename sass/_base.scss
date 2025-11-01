@@ -5,7 +5,7 @@ body {
 
 }
 main {
-    margin: 10vw 40vw;
+    margin: 5vw 20vw;
     background-color: pink;
     border-radius: $radius;
     border: 4px;
@@ -29,7 +29,7 @@ main {
 .textbox {
     @include textbox;
     background-color: lightpink;
-    border-color: pink;
+    border-color: plum;
     border-radius: 15px;
     border-style: dotted;
     border: 4.5px;
