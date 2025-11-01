@@ -6,6 +6,11 @@ body {
 }
 main {
     margin: 10vw 40vw;
+    background-color: pink;
+    border-radius: $radius;
+    border: 4px;
+    border-style: dotted;
+    border-color: plum;
 }
 .button {
     @include button;
