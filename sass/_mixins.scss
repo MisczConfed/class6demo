@@ -1,5 +1,5 @@
 @mixin button {
-    background-color: var(--color_orange);
+    background-color: var(--color_light_pink);
     color: white;
     padding: 0.75em 1.5em;
     border-radius: 100px;
@@ -8,7 +8,7 @@
     font-family: var(--font_serif);
     font-size: 0.8rem;
     &:hover {
-        background-color: var(--color_light-orange);
+        background-color: var(--color_pink);
     }
 }
 
