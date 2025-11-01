@@ -5,26 +5,14 @@ body {
 
 }
 main {
-    margin: 3vw 10vw;
+    margin: 3vw 5vw;
     background-color: pink;
     border-radius: $radius;
     border: 4px;
     border-style: dotted;
     border-color: plum;
 }
-.button {
-    @include button;
-}
-.button-alt {
-    @include button;
-    background-color: pink;
-}
-.button-outline {
-    @include button;
-    background-color: none;
-    border: 2px solid;
-    color: unset;
-}
+
 
 .textbox {
     @include textbox;
