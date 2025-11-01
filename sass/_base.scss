@@ -12,7 +12,7 @@ main {
 }
 .button-alt {
     @include button;
-    background-color: grey;
+    background-color: pink;
 }
 .button-outline {
     @include button;
