@@ -1,12 +1,12 @@
 @mixin parabox {
     padding-left: 10%;
     padding-right: 10%;
-    background-color: var(--color_plum);
+    background-color: var(--color_light-pink);
     margin-bottom: 10px;
     border-radius: 15px;
     border: 4px;
     border-style: dotted;
-    border-color: var(--color_soft-orange);
+    border-color: var(--color_plum);
 
 }
 
