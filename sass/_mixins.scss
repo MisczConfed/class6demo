@@ -2,11 +2,12 @@
 
 @mixin textbox {
     background-color: var(--color_plum);
-    border-color: var(--color_soft-orange);
+    border-color: var(--color_light_pink);
     border-radius: 15px;
-    border-style: dotted;
-    border: 4.5px;
+    border-style: dashed;
+    border: 5px;
     text-align: center;
+    padding: 10px;
 }
 
 .textbox {
