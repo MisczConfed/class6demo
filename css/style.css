@@ -1,18 +1,1 @@
-/* Error: Undefined mixin.
- *    ,
- * 21 |     @include corners;
- *    |     ^^^^^^^^^^^^^^^^
- *    '
- *   sass\_base.scss 21:5  @use
- *   sass\style.scss 4:1   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 21 \2502      @include corners;\a    \2502      ^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\_base.scss 21:5  @use\a   sass\\style.scss 4:1   root stylesheet";
-}
+:root{--font_sans: Helvetica, sans-serif;--font_serif: Georgia, serif;--color_blue: rgb(151, 158, 211);--color_pink: rgb(240, 124, 124);--color_light_pink: rgb(238, 155, 155);--color_soft-orange: rgb(230, 177, 118);--color_plum: rgb(164, 127, 189)}body{font-family:var(--font_serif);font-size:20px}h1{font-family:var(--font_serif);font-size:2.5rem;letter-spacing:-0.02em;text-align:center}h1,h2,h3{background-color:#ffb6c1;text-align:center}body{margin:0}main{margin:3vw 5vw;background-color:pink;border:4px;border-style:dotted;border-color:plum}.textbox{background-color:var(--color_light_pink);border-color:var(--color_pink);border-radius:15px;border-style:dotted;border:4.5px;text-align:center}.rounded{border-radius:15px;border:4px;border-style:dotted;border-color:plum}/*# sourceMappingURL=style.css.map */

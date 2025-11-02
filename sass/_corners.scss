@@ -1,6 +1,13 @@
 
 
-@mixin corners {
+@mixin border {
   border-radius: 15px;
+    border: 4px;
+    border-style: dotted;
+    border-color: plum;
+}
+
+.rounded {
+  @include border;
 }
 
