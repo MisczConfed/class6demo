@@ -1,2 +1,18 @@
-:root{--font_sans: Helvetica, sans-serif;--font_serif: Georgia, serif;--color_blue: rgb(42, 48, 92);--color_light-orange: rgb(210, 106, 46)}body{font-family:var(--font_serif);font-size:20px}h1{font-size:2.5rem;letter-spacing:-0.02em}h1,h2,h3{font-family:var(--font_sans);color:var(--color_orange)}body{margin:0}main{margin:10vw 40vw}.button{background-color:var(--color_orange);color:#fff;padding:.75em 1.5em;border-radius:100px;transition:all 150ms;text-decoration:none;font-family:var(--font_serif);font-size:.8rem}.button:hover{background-color:var(--color_light-orange)}.button-alt{background-color:var(--color_orange);color:#fff;padding:.75em 1.5em;border-radius:100px;transition:all 150ms;text-decoration:none;font-family:var(--font_serif);font-size:.8rem;background-color:gray}.button-alt:hover{background-color:var(--color_light-orange)}.button-outline{background-color:var(--color_orange);color:#fff;padding:.75em 1.5em;border-radius:100px;transition:all 150ms;text-decoration:none;font-family:var(--font_serif);font-size:.8rem;background-color:none;border:1px solid;color:unset}.button-outline:hover{background-color:var(--color_light-orange)}/*# sourceMappingURL=style.css.map */
+/* Error: Undefined mixin.
+ *    ,
+ * 21 |     @include corners;
+ *    |     ^^^^^^^^^^^^^^^^
+ *    '
+ *   sass\_base.scss 21:5  @use
+ *   sass\style.scss 4:1   root stylesheet */
 
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 21 \2502      @include corners;\a    \2502      ^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\_base.scss 21:5  @use\a   sass\\style.scss 4:1   root stylesheet";
+}

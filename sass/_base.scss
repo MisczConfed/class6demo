@@ -7,7 +7,6 @@ body {
 main {
     margin: 3vw 5vw;
     background-color: pink;
-    border-radius: $radius;
     border: 4px;
     border-style: dotted;
     border-color: plum;
@@ -16,9 +15,8 @@ main {
 
 .textbox {
     @include textbox;
-    background-color: lightpink;
-    border-color: plum;
-    border-radius: 15px;
-    border-style: dotted;
-    border: 4.5px;
+}
+
+.rounded {
+    @include corners;
 }
